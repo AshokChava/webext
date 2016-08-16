@@ -1,0 +1,28 @@
+<html>
+<head><script src="wcctools.js"></script></head>
+<body>
+<center>WCCTools</center>
+<hr/>
+<table>
+<tr><td>Service</td>
+<td>
+<select id="service">
+<option value="DOC_INFO_BY_NAME">DOC_INFO_BY_NAME
+<option value="DOC_INFO">DOC_INFO
+<option value="WORKFLOW_APPROVE">WORKFLOW_APPROVE
+</select>
+</td>
+<tr><td>Arguments</td><td><input id="args"  size="100"></td>
+<tr><td>Parameters</td><td>
+<select id="param">
+<option value="dDocName">dDocName
+<option value="dID">dID
+<option value="idcToken">idcToken
+</select><input type="text" id="paramvalue"><input type="button" value="Add" id="addparam" onClick="addParamToArgs()">
+</td>
+<tr><td></td><td></td></tr>
+<tr><td><input type="button" value="Go" id="gobtn" onClick="executeService()"/></td><td><input type="button" value="Reset"/></td>
+</table>
+
+</body>
+</html>

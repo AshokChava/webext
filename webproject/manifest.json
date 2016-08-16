@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "webproject",
+  "version": "1.0",
+  "description": "Webext for webproject application",
+  "icons": {
+    "48": "icons/WPT.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.google.co.in/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ],
+	"browser_action": {
+    "default_icon": "icons/WPT-32.png",
+    "default_title": "webproject",
+    "default_popup": "popup/webproject.html"
+  }
+ 
+
+}
