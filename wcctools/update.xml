@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
+  <app appid='jddeocmmhiodbicmkenlgaogppnkgejl'>
+    <updatecheck codebase='https://github.com/AshokChava/webext/tree/master/wcctools/web-ext-artifacts/wcctools.crx' version='1.0' />
+  </app>
+   <app appid='{f7a05a34-0401-45ac-a2a5-a6b8f8efa44f}'>
+    <updatecheck codebase='https://github.com/AshokChava/webext/tree/master/wcctools/web-ext-artifacts/wcctools.xpi' version='1.0' />
+  </app>
+</gupdate>
