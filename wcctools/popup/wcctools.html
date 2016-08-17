@@ -1,0 +1,44 @@
+<html>
+<body>
+<center>WCCTools</center>
+<hr/>
+<center><input type="button" value="IsSoap" id="issoapbtn">
+<input type="button" value="IsJava" id="isjavabtn">
+<input type="button" value="IsPageDebug" id="scriptdebugtracebtn">
+<input type="button" value="Clear" id="clearbtn">
+
+<table>
+
+<tr><td>Service</td>
+<td>
+<input id="selectservice"/>
+<select id="servicesel">
+<option value="">
+<option value="DOC_INFO_BY_NAME">DOC_INFO_BY_NAME
+<option value="DOC_INFO">DOC_INFO
+<option value="WORKFLOW_APPROVE">WORKFLOW_APPROVE
+<option value="FLD_BROWSE">FLD_BROWSE
+<option value="FLD_EDIT_FOLDER_FORM">FLD_EDIT_FOLDER_FORM
+<option value="FLD_EDIT_METADATA_RULES_FORM">FLD_EDIT_METADATA_RULES_FORM
+<option value="GET_WORKFLOWDOCREVISIONS">GET_WORKFLOWDOCREVISIONS
+</select>
+</td>
+<tr><td>Arguments</td><td><input id="args"  size="100"></td>
+<tr><td>Parameters</td><td>
+<select id="param">
+<option value="">
+<option value="dDocName">dDocName
+<option value="dID">dID
+<option value="idcToken">idcToken
+<option value="path">path
+<option value="fFolderGUID">fFolderGUID
+<option value="dWfName">dWfName
+</select><input type="text" id="paramvalue"><input type="button" value="Add" id="addparam" onClick="addParamToArgs()">
+</td>
+<tr><td></td><td></td></tr>
+<tr><td><input type="button" value="Go" id="gobtn"/></td><td><input type="button" id="resetbtn" value="Reset"/></td>
+</table>
+
+</body>
+<script src="wcctools.js"></script>
+</html>
