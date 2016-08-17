@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "WCCTools",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Oracle WCCTools",
     "homepage_url": "https://github.com/AshokChava/webext/tree/master/wcctools",
-"update_url":   "https://github.com/AshokChava/webext/tree/master/wcctools/update.xml"
+"update_url":   "https://github.com/AshokChava/webext/tree/master/wcctools/update.xml",
   "icons": {
     "48": "icons/wcctools.png"
   },
